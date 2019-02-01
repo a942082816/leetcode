@@ -17,7 +17,7 @@ class Solution:
         for i, v in enumerate(inorder):
             dictA[v] = i
 
-        def buildSubTree(preorder, inorder):
+        def buildSbTree(preorder, inorder):
 
             if not preorder:
                 return None
